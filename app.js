@@ -6,7 +6,7 @@ var userName = prompt('What\'s your name?');
 
 alert ('Hello ' + userName + ' Thanks for visiting my site!');
 
-//Guessing Game
+//Guessing Game here
 var game = prompt('Would you like to play a guessing game? Yes/No');
 if ((game === 'y') || (game === 'Y') || (game ==='Yes') || (game === 'yes') || (game = 'YES')){
   var answerOne = prompt('Let\'s start with an easy question. Where was I born?').toUpperCase();

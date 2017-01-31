@@ -14,10 +14,12 @@ img {
   width: 425px;
   background-color: beige;
 }
+
 #containerOne{
 float:left;
 padding: 50px 10px 10px 100px;
 }
+
 #containerTwo{
 float:left;
 padding: 100px 10px 10px 100px;
