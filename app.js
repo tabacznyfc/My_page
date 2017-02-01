@@ -3,11 +3,7 @@ var myAnswerTwo = 'KIA';
 var myAnswerThree = "YES";
 var myAnswerFour = "Sammamish";
 var userName = prompt("What's your name?");
-
-alert ("Hello " + userName + ' Thanks for visiting my site!');
-var game = prompt("Would you like to play a guessing game? Yes/No");
-if ((game === "y") || (game === "Y") || (game ==="Yes") || (game === "yes")){
-  //Guessing Game
+function guessingGame() {
   var answerOne = prompt("Let's start with an easy question. Where was I born?");
   if (answerOne === myAnswerOne){
     alert("Correct! I was born in Russia");
@@ -44,7 +40,13 @@ if ((game === "y") || (game === "Y") || (game ==="Yes") || (game === "yes")){
   else{
     alert("Not my favorite.  Paris is everyone's safe bet :)");
   }
+}
+alert ("Hello " + userName + ' Thanks for visiting my site!');
+var game = prompt("Would you like to play a guessing game? Yes/No");
+if ((game === "y") || (game === "Y") || (game ==="Yes") || (game === "yes")){
+  //Guessing Game
 
+guessingGame();
 }
 else {
   alert("Nice meeting you!");
